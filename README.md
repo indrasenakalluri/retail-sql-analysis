@@ -1,2 +1,3 @@
 # retail-sql-analysis
 A SQL project analyzing a 5-table retail sales schema (customers, orders, order_items, products, categories). Includes 5 verified queries covering multi-table joins, a CTE, a window function (RANK/PARTITION BY), a correlated subquery, and monthly trend analysis
+Each query answers a specific business question — such as identifying top customers by spend, ranking categories by revenue, and tracking monthly sales trends — rather than being a generic syntax exercise. All queries were written and tested against a live MySQL database, with results verified for accuracy before being documented here.
